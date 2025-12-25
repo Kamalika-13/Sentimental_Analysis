@@ -1,33 +1,81 @@
-# Sentimental_Analysis
-This project uses IMDB movie reviews to classify sentiment as positive or negative. It covers data loading, preprocessing, model training (Naive Bayes, Logistic Regression, LSTM), evaluation, and visualization. Perfect for beginners to learn NLP and machine learning with real data
+# 🎬 Sentiment Analysis on Movie Reviews 😊😡
 
-🎯 Project Goal
+## 📌 Project Overview
+This project focuses on building a **binary sentiment analysis system** to classify movie reviews as **Positive 😊** or **Negative 😡**.  
+It demonstrates an **end-to-end NLP pipeline** including text preprocessing, feature extraction, model training, and performance evaluation.
 
-Predict if a movie review is positive or negative using machine learning.
+---
 
-🧹 Text Cleaning
+## 📂 Dataset
+📽️ **IMDB Movie Reviews Dataset**
+- 🔢 Total Reviews: 50,000
+- 🏋️ Training Samples: 25,000
+- 🧪 Testing Samples: 25,000
+- ⚖️ Balanced positive & negative classes  
 
-Clean and prepare the reviews by removing noise, punctuation, and stop words.
+Dataset is loaded using **TensorFlow Keras API**.
 
-🤖 Models Used
+---
 
-Naive Bayes 🛠️
+## 🛠️ Technologies Used
+- 🐍 Python  
+- 📊 Pandas, NumPy  
+- 📐 Scikit-learn  
+- 🧠 NLTK  
+- 🤖 TensorFlow / Keras  
+- 📈 Matplotlib, Seaborn  
+- ☁️ WordCloud  
 
-Logistic Regression 📈
+---
 
-LSTM (Deep Learning) 🌐
+## 🧪 Models Implemented
+- 📌 Logistic Regression (TF-IDF features)
+- 📌 Naive Bayes
+- 📌 LSTM (Deep Learning model)
 
-📊 Results
+---
 
-Accuracy, F1-score, and confusion matrix for each model.
+## 📊 Evaluation Metrics
+- ✅ Accuracy  
+- 🎯 Precision  
+- 🔁 Recall  
+- 🧮 F1-score  
+- 📉 Confusion Matrix  
+- 📈 ROC–AUC Curve  
 
-Visualizations like ROC curves and training graphs.
+---
 
-🔍 Error Analysis
-Check why some reviews are misclassified (e.g., sarcasm, short reviews).
+## 🏆 Results
+- ⭐ Logistic Regression Accuracy: **~88%**
+- 📈 ROC-AUC Score: **~0.95**
+- 🤖 LSTM Accuracy: **~66%** (basic implementation)
 
-🌪️ Word Clouds
-Visualize the most frequent words in positive and negative reviews.
+---
 
-⚙️ Hyperparameter Tuning
-Improve model accuracy by tuning parameters (e.g., alpha, epochs).
+## 📸 Visualizations
+- 📊 Class distribution  
+- 🧮 Confusion matrix  
+- 📈 ROC curve  
+- 🔄 Training vs Validation Accuracy & Loss  
+- ☁️ Word clouds for sentiment insights  
+
+---
+
+## ▶️ How to Run
+1. 📥 Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+iews.
+2. 📓 Open Jupyter Notebook
+
+3. ▶️ Run Sentiment_Analysis_IMDB.ipynb
+
+# #🎓 Learnings
+
+🧹 Text preprocessing techniques in NLP
+
+🔤 Feature extraction using TF-IDF
+
+🤔 Comparison of ML vs Deep Learning models
+
+📊 Model evaluation & interpretation
